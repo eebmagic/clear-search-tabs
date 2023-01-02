@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Clear Search Tabs",
+  "description": "Closes all tabs in current window that are just google searches",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "tabGroups"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "keyboard-shortcut": {
+      "suggested_key": "Ctrl+Shift+Y",
+      "description": "Close all g-search tabs"
+    }
+  }
+}
