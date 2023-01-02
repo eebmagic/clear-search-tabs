@@ -4,9 +4,7 @@
   "name": "Clear Search Tabs",
   "description": "Closes all tabs in current window that are just google searches",
   "permissions": [
-    "activeTab",
-    "tabs",
-    "tabGroups"
+    "tabs"
   ],
   "background": {
     "service_worker": "background.js"
