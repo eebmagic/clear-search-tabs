@@ -11,7 +11,7 @@
   },
   "commands": {
     "keyboard-shortcut": {
-      "suggested_key": "Ctrl+Shift+Y",
+      "suggested_key": "Ctrl+Shift+E",
       "description": "Close all g-search tabs"
     }
   }
