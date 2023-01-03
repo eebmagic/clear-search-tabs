@@ -3,6 +3,9 @@
   "version": "1.0",
   "name": "Clear Search Tabs",
   "description": "Closes all tabs in current window that are just google searches",
+  "icons": {
+    "128": "clear-search-icon.png"
+  },
   "permissions": [
     "tabs"
   ],
